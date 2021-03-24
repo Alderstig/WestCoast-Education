@@ -1,0 +1,52 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "courseNumber": 1001,
+      "title": "Introduktion till JavaScript",
+      "description": "En kurs som ger dig grundläggande kunskaper inom JavaScript",
+      "lenght": 40,
+      "category": "Programmering"
+    },
+    {
+      "id": 2,
+      "courseNumber": 1002,
+      "title": "Introduktion till C#",
+      "description": "En kurs som ger dig grundläggande kunskaper inom C#",
+      "lenght": 50,
+      "category": "Programmering"
+    },
+    {
+      "id": 3,
+      "courseNumber": 1003,
+      "title": "Introduktion till SQL",
+      "description": "En kurs som ger dig grundläggande kunskaper inom SQL",
+      "lenght": 50,
+      "category": "Programmering"
+    },
+    {
+      "id": 4,
+      "courseNumber": 1004,
+      "title": "Introduktion till CSS",
+      "description": "En kurs som ger dig grundläggande kunskaper inom CSS",
+      "lenght": 60,
+      "category": "Programmering"
+    },
+    {
+      "id": 5,
+      "courseNumber": 1005,
+      "title": "Introduktion till HTML",
+      "description": "En kurs som ger dig grundläggande kunskaper inom HTML",
+      "lenght": 70,
+      "category": "Programmering"
+    },
+    {
+      "id": 6,
+      "courseNumber": 1006,
+      "title": "Introduktion till C++",
+      "description": "En kurs som ger dig grundläggande kunskaper inom C++",
+      "lenght": 70,
+      "category": "Programmering"
+    }
+  ]
+}
