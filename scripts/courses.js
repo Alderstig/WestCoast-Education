@@ -15,9 +15,9 @@ const renderCourses = function (courses) {
 };
 
 const listCourses = function () {
-  fetch("http://localhost:3000/courses")
+  fetch("/data/db.json")
     .then((response) => response.json())
-    .then((data) => renderCourses(data))
+    .then((data) => renderCourses(data.courses))
     .catch((err) => alert(err));
 };
 
