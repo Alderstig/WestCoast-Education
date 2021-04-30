@@ -5,7 +5,7 @@
       "courseNumber": 1001,
       "title": "Introduktion till JavaScript",
       "description": "En kurs som ger dig grundläggande kunskaper inom JavaScript",
-      "length": 40,
+      "courseLength": 40,
       "category": "Programmering"
     },
     {
@@ -13,7 +13,7 @@
       "courseNumber": 1002,
       "title": "Introduktion till C#",
       "description": "En kurs som ger dig grundläggande kunskaper inom C#",
-      "length": 50,
+      "courseLength": 50,
       "category": "Programmering"
     },
     {
@@ -21,7 +21,7 @@
       "courseNumber": 1003,
       "title": "Introduktion till SQL",
       "description": "En kurs som ger dig grundläggande kunskaper inom SQL",
-      "length": 50,
+      "courseLength": 50,
       "category": "Programmering"
     },
     {
@@ -29,7 +29,7 @@
       "courseNumber": 1004,
       "title": "Introduktion till CSS",
       "description": "En kurs som ger dig grundläggande kunskaper inom CSS",
-      "length": 60,
+      "courseLength": 60,
       "category": "Programmering"
     },
     {
@@ -37,7 +37,7 @@
       "courseNumber": 1005,
       "title": "Introduktion till HTML",
       "description": "En kurs som ger dig grundläggande kunskaper inom HTML",
-      "length": 70,
+      "courseLength": 70,
       "category": "Programmering"
     },
     {
@@ -45,7 +45,7 @@
       "courseNumber": 1006,
       "title": "Introduktion till C++",
       "description": "En kurs som ger dig grundläggande kunskaper inom C++",
-      "length": 70,
+      "courseLength": 70,
       "category": "Programmering"
     },
     {
@@ -53,7 +53,7 @@
       "courseNumber": 1007,
       "title": "Introduktion till Python",
       "description": "En kurs som ger dig grundläggande kunskaper inom Python",
-      "length": 70,
+      "courseLength": 70,
       "category": "Programmering"
     },
     {
@@ -61,7 +61,7 @@
       "courseNumber": 1008,
       "title": "Introduktion till C",
       "description": "En kurs som ger dig grundläggande kunskaper inom C",
-      "length": 70,
+      "courseLength": 70,
       "category": "Programmering"
     },
     {
@@ -69,7 +69,7 @@
       "courseNumber": 1009,
       "title": "Introduktion till C+",
       "description": "En kurs som ger dig grundläggande kunskaper inom C+",
-      "length": 70,
+      "courseLength": 70,
       "category": "Programmering"
     },
     {
@@ -77,7 +77,7 @@
       "courseNumber": 1010,
       "title": "Introduktion till Ruby",
       "description": "En kurs som ger dig grundläggande kunskaper inom Ruby",
-      "length": 70,
+      "courseLength": 70,
       "category": "Programmering"
     },
     {
@@ -85,7 +85,7 @@
       "courseNumber": 1011,
       "title": "Introduktion till PHP",
       "description": "En kurs som ger dig grundläggande kunskaper inom PHP",
-      "length": 70,
+      "courseLength": 70,
       "category": "Programmering"
     },
     {
@@ -93,7 +93,7 @@
       "courseNumber": 1012,
       "title": "Introduktion till Assembly",
       "description": "En kurs som ger dig grundläggande kunskaper inom Assembly",
-      "length": 70,
+      "courseLength": 70,
       "category": "Programmering"
     }
   ]

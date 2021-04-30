@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
 }
 
 a {
@@ -52,6 +53,11 @@ nav .link-container ul li a {
 nav .link-container ul li a:hover,
 .active {
   font-style: italic;
+}
+
+.cart:hover {
+  cursor: pointer;
+  color: rgb(107, 107, 107);
 }
 
 #main-display {
@@ -110,4 +116,8 @@ footer {
 
 footer p {
   color: var(--secondary-color);
+}
+
+.hidden {
+  display: none;
 }

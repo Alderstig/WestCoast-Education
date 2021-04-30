@@ -10,7 +10,7 @@
 .course {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 15px;
   max-width: 300px;
   align-items: center;
   text-align: center;
@@ -22,37 +22,59 @@
   box-shadow: 5px 5px rgba(160, 160, 160, 0.329);
 }
 
-.course p {
+.course-header {
   padding-top: 1rem;
   font-size: 1.2rem;
 }
 
 .course-description {
-  font-size: smaller;
+  font-size: 0.7rem;
   padding: 0.5rem;
   line-height: 1.25;
 }
 
-@media(min-width: 572px) and (max-width: 768px){
-  .gallery{
+.btn-container {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  font-size: small;
+  border-radius: 12px;
+  padding: 0.5rem;
+  transition-duration: 0.4s;
+  background-color: rgb(0, 119, 255);
+  color: var(--secondary-color);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(49, 145, 255);
+}
+
+@media (min-width: 572px) and (max-width: 768px) {
+  .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media(min-width: 769px) and (max-width: 1024px){
-  .gallery{
+@media (min-width: 769px) and (max-width: 1024px) {
+  .gallery {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media(min-width: 1025px) and (max-width: 1200px){
-  .gallery{
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .gallery {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media(min-width: 1201px) and (max-width: 1920px){
-  .gallery{
+@media (min-width: 1201px) and (max-width: 1920px) {
+  .gallery {
     grid-template-columns: repeat(5, 1fr);
   }
 }

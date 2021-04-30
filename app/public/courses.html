@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/content/css/colors.css" />
+    <link rel="stylesheet" href="/content/css/modal.css" />
     <link rel="stylesheet" href="/content/css/courses.css" />
     <link rel="stylesheet" href="/content/css/styles.css" />
-    <link rel="stylesheet" media="screen and (max-width: 575px)" href="/content/css/mobile.css">
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 575px)"
+      href="/content/css/mobile.css"
+    />
     <script
       src="https://kit.fontawesome.com/734a53a685.js"
       crossorigin="anonymous"
@@ -27,11 +32,33 @@
         <ul>
           <li><a href="index.html">Hem</a></li>
           <li><a class="active" href="./courses.html">Kurser</a></li>
+          <li>
+            <i class="fas fa-shopping-cart cart"></i>
+          </li>
         </ul>
       </div>
     </nav>
     <main>
       <div class="title-container"><h1>Vårt Kursutbud</h1></div>
+      <div class="btn-container">
+        <button id="add-course-btn" class="btn">Lägg till ny kurs</button>
+      </div>
+
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <div class="modal-container hidden"></div>
+        <div class="modal-btn-container hidden"></div>
+
+        <div class="cart-container hidden">
+          <i class="fas fa-shopping-cart cart-emblem"> Kundvagnen</i>
+          <div class="cart-item"></div>
+          <button id="cart-buy-btn" class="btn">Köp</button>
+        </div>
+
+        <div class="confirm-purchase-container hidden"></div>
+      </div>
+      <div class="overlay hidden"></div>
+
       <section class="gallery"></section>
     </main>
     <footer>
